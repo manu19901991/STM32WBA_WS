@@ -1,6 +1,6 @@
 {
   "title": "STM32WBA Workshop",
-  "githubLoc": "https://raw.githubusercontent.com/RRISTM/stm32u5_workshop/master/",
+  "githubLoc": "https://raw.githubusercontent.com/manu19901991/STM32_WBA/master/",
   "options": {
     "allowMenu": true,
     "allowTagSelect": false

@@ -6,6 +6,18 @@
     "allowTagSelect": false
   },
   "filesToLoadArr": [
+
+    {
+      "name": "Preparation to STM32H5 workshop",
+      "path": "/introduction_instalation",
+      "file": "start.md"
+    },
+  
+    {
+      "name": "STM32WBA Workshop - preparation before the session",
+      "path": "/introduction_instalation",
+      "file": "file_live_1.md"
+    },
     
     {
       "path": "/WBA",
@@ -19,6 +31,28 @@
 
   ],
   "menuStructure": [
+
+    {
+      "type": "Folder",
+      "name": "BEFORE WORKSHOP",
+      "children": [
+        {
+          "type": "File",
+          "name": "Before STM32H5 session",
+          "file": "file_live.md"
+        }
+,
+        
+          {
+            "type": "File",
+            "name": "Before STM32WBA session",
+            "file": "file_live_1.md"
+          }
+
+
+      ]
+    },
+
     
   {
       "type": "Folder",

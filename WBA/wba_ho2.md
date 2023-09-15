@@ -26,7 +26,7 @@ HAL_GPIO_TogglePin(GPIOB, LD2_Pin|LD3_Pin|LD1_Pin);
 
 # Add application code to rise an alarm from device to Smartphone
 
-1. code needs to be added in **Core/Inc/app_conf.h** ~line 110  in **/*USER CODE BEGIN CFG_Task_Id_t*/**
+1. code needs to be added in **Core/Inc/app_conf.h** ~line 376  in **/*USER CODE BEGIN CFG_Task_Id_t*/**
 
 ```c
 TASK_BUTTON_1,

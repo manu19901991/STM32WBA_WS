@@ -11,11 +11,10 @@ Presentation
                                            CFG_BD_ADDRESS_TYPE,
                                            ADV_FILTER,
                                            0, 0, 0, 0, 0, 0);
-​
-  aci_gap_delete_ad_type(AD_TYPE_TX_POWER_LEVEL);
 
+aci_gap_delete_ad_type(AD_TYPE_TX_POWER_LEVEL);
 
-  aci_gap_update_adv_data(sizeof(a_AdvData), (uint8_t*) a_AdvData);
+aci_gap_update_adv_data(sizeof(a_AdvData), (uint8_t*) a_AdvData);
 ```
 2.still in **STM32_WPAN/App/app_ble.c** inside SVCCTL_App_Notification function ~line 343 (v1.1.) or ~line 311 (V1.1.0) in **/*USER CODE BEGIN EVT_DISCONN_COMPLETE*/**
 

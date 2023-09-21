@@ -24,7 +24,6 @@ aci_gap_update_adv_data(sizeof(a_AdvData), (uint8_t*) a_AdvData);
                                            ADV_FILTER,
                                            0, 0, 0, 0, 0, 0);
 
-   aci_gap_update_adv_data(sizeof(a_AdvData), (uint8_t*) a_AdvData);
 ```
 
 

@@ -51,11 +51,11 @@ We look forward to seeing you at the STM32WBA Workshop live session!
   - ST BLE ToolBox Smartphone Application - this has to be downloaded on your mobile
     - **[Android version](https://play.google.com/store/apps/details?id=com.st.dit.stbletoolbox&hl=it&gl=US&pli=1)**
     <br>
-    ![appqrcode](./img/26.png =250x250)
+    ![appqrcode](./img/27.png)
     <br>
     - **[IOS version](https://apps.apple.com/it/app/st-ble-toolbox/id1531295550)**
     <br>
-    ![app2qrcode](./img/png =250x250)
+    ![app2qrcode](./img/png)
     <br>
 
 <br>

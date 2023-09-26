@@ -55,7 +55,7 @@ We look forward to seeing you at the STM32WBA Workshop live session!
     <br>
     - **[IOS version](https://apps.apple.com/it/app/st-ble-toolbox/id1531295550)**
     <br>
-    ![app2qrcode](./img/png)
+    ![app2qrcode](./img/28.png)
     <br>
 
 <br>

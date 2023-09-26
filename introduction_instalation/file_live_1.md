@@ -6,13 +6,7 @@ Presentation
 ## Dear Participant of STM32WBA Workshop,
 <br>
 
-<ainfo>
-You are supposed to move to this section after completing the installation and downloads described in "Before STM32H5 session"
-</ainfo>
-
-----
-
-Welcome to our comprehensive guide on how to prepare for the live version of the STM32H5 Workshop session. This step-by-step guide is designed to provide you with all the necessary information about the prerequisites, installation process, and links to materials that will be useful during the session.
+Welcome to our comprehensive guide on how to prepare for the live version of the STM32WBA Workshop session. This step-by-step guide is designed to provide you with all the necessary information about the prerequisites, installation process, and links to materials that will be useful during the session.
 
 In this guide, you will find detailed information about the required software and hardware, as well as a brief overview of the installation process. Additionally, we have included links to materials that will be helpful during the session.
 
@@ -49,21 +43,24 @@ We look forward to seeing you at the STM32WBA Workshop live session!
   ![H5_DK](./img/5.png)
   <br>
 - Software (PC with **MS Windows 10** operating system):
-  - **[STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)** in version 6.9.1
   - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.13.1
-  - **[STM32WBA Cube library](https://www.st.com/en/embedded-software/stm32cubewba.html)** in version 1.1.0
+  - **[STM32WBA Cube library](https://www.st.com/en/embedded-software/stm32cubewba.html)** in version 1.1.0 and in version 1.1.1
   - **[CubeMx .ioc project template](https://github.com/manu19901991/WBA_WS/tree/main)** we will use it during hands-on
   - **[Virtual COM port drivers](https://www.st.com/en/development-tools/stsw-stm32102.html)**
   -  any **serial terminal** application (e.g. **[Termite](https://termite.software.informer.com/3.4/)**)
   - ST BLE ToolBox Smartphone Application - this has to be downloaded on your mobile
     - **[Android version](https://play.google.com/store/apps/details?id=com.st.dit.stbletoolbox&hl=it&gl=US&pli=1)**
+    <br>
+    ![appqrcode](./img/26.png)
+    <br>
     - **[IOS version](https://apps.apple.com/it/app/st-ble-toolbox/id1531295550)**
+    <br>
+    ![app2qrcode](./img/25.png)
+    <br>
 
 <br>
 
 # Installation process
-- download **STM32CubeMX** from [here](https://www.st.com/en/development-tools/stm32cubemx.html)
-- install **STM32CubeMX** (if not yet done)
 - download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
 - Install **STM32CubeIDE** (if not yet done)
 - download and install **STM32WBA Cube library** (if not done yet):

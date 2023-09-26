@@ -64,7 +64,7 @@ We look forward to seeing you at the STM32WBA Workshop live session!
 - download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
 - Install **STM32CubeIDE** (if not yet done)
 - download and install **STM32WBA Cube library** (if not done yet):
-  - run **STM32CubeMX**
+  - run **STM32CubeIDE**
   - go to `Help -> Manage Embedded Software Packages`
   - within package manager window find `STM32WBA`, unroll it and select newest available version ( in your case STM32WBA 1.1.0)
   - press `install now`
@@ -164,7 +164,7 @@ Additionally prepared test project can be a base for next hands-on parts during 
 <br>
 ## **Step2** - coding part (`main.c` file)
 <br>
-Define the buffer of bytes to be sent over **USART3** (`USER CODE PV` section):
+Define the buffer of bytes to be sent over **USART1** (`USER CODE PV` section):
 <br>
 
 ```c
@@ -176,7 +176,7 @@ Turn on **LED1_GREEN** (`USER CODE 2` section):
 <br>
 
 ```c
-  HAL_GPIO_WritePin(LED1_GREEN_GPIO_Port, LED1_GREEN_Pin, 1);
+    HAL_GPIO_WritePin(LD1_GPIO_Port, LD1_Pin, 1);
 ```
 
 <br>
@@ -198,7 +198,7 @@ Wait for 250 ms
 ```
 
 <br>
-![Coding3](./img/CubeIDE_Coding3.apng)
+![Coding3](./img/30.gif)
 <br>
 
 ----
@@ -207,7 +207,7 @@ Wait for 250 ms
 ## **Step 3** - build the project
 - Build the project using `hammer` button or `Project->Built All` or **Ctrl+B**
 <br>
-![Project build](./img/14.gif)
+![Project build](./img/31.gif)
 <br>
 
 <ainfo>
